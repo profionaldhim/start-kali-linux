@@ -49,14 +49,14 @@ echo -e $green "0- Exit [•]"
 read startkalilinux
 if [ $startkalilinux = 1 ]
 then
-cd $Home
+#cd $Home
 #git clone https://github.com/profionaldhim/bootscript
 echo -e $green "please input path kali linux Ex: /sdcard/kalilinux/ "
 echo ""
 read path2
 
 #echo -e $white " must be Install root and sudo on your Device and run busybox "
-cd $Home
+#cd $Home
 #cd bootscript
 cp bootscript.sh $path2
 #sudo su 
